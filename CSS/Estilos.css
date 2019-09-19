@@ -1,0 +1,346 @@
+
+ .base{
+     background-color:white
+ }
+
+#navo
+{
+    background-color: white
+}
+/* sidebar copiado juejuejue*/
+body {
+    overflow-x: hidden;
+  }
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 8rem;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+}
+/* fin sidebar copiado juejuejue*/
+
+  /*cosa de inicio de sesion*/
+/* Full-width input fields */
+#id01 input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#id01 button {
+    background-color: #1A2A33;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#id01 button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+#id01 .cancelbtn {
+    width: 150px;
+    height: 80px;
+     padding: 0px 0px;
+    background-color: #DB3C1D;
+}
+#id01 #submitbtn {
+    width: 150px !important;
+    height: 80px !important;
+     padding: 0px 0px !important;
+    background-color: rgb(17, 202, 0) !important;
+   margin-left: 20px !important;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #D5A021;
+    border: none;
+    margin: 0% auto 0% auto; /* 5% from the top, 15% from the bottom and centered */
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #DAE3DB;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+  /* fin cosas de inicio de sesion*/
+
+  /* horizontal cards*/
+#lateral.wrapper {
+	background-color:rgb(255, 153, 0);
+	color: white;
+	display: flex;
+	flex-flow: row nowrap;
+    min-height: 20%;
+    max-height: 30%;
+    width: 600px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+#lateral.icon {
+	align-self: center;
+	background-color:rgb(161, 97, 0);
+	color: black;
+	flex: 1 1 auto;
+	font-size: 32px;
+	padding: 20px;
+    border-radius: 15px;
+}
+
+#lateral.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+	background-color: rgb(255, 174, 0);
+	color: black;
+	flex: 12 1 auto;
+	padding: 20px;
+    border-radius: 15px;
+}
+#lateral.boton {
+	align-self: center;
+	background-color:rgb(255, 255, 255);
+	color: black;
+	flex: 1 1 auto;
+	font-size: 15px;
+    border-radius: 15px;
+}
+  /* fin horizontal cards*/
+
+   /*------------------- REGISTRO ----------------*/
+   #idContForma .container{
+    background-color: lightgray;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em; 
+    width: 40em;
+  }
+  #idContForma p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  #idContForma #btnSubmit{
+    background-color: rgb(5, 197, 27);
+    width: 32em;
+    height: 5em;
+    margin-left: 220px;
+    font-weight: bold;
+    font-size:20px;
+    color: white;
+  }
+  /*------------------- FIN REGISTRO ----------------*/
+  /*------------------- CONFIRMACION DE COMPRA------------------*/
+#idResumenContenedor,#idChatContenedor{
+  background-color:lightgray;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    border-radius: 20px;
+}
+div#idResumenHead ,div#idChatHead {
+  justify-content:center;
+ font-weight: bold;
+ font-size: 25px;
+}
+img.resize{
+  width:20%; /* you can use % */
+  height: auto;
+}
+img.resizeChat{
+  width:10%; /* you can use % */
+  height: 10%;
+}
+#idItems p,#idTotal p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#idChat p.Admin{
+  background-color: rgb(238, 222, 184);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  border-radius: 5px;
+  font-size: 20px;
+}
+#idChat p.Cliente{
+  background-color: rgb(129, 206, 158);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#btnSendMessage{
+  background-color:rgb(5, 197, 27);
+  color: white;
+}
+#btnFinish{
+  margin: 2em;
+  margin-left: 20em;
+  margin-right: 20em;
+  height: 3em;
+  
+}
+#idRowFinish{ /*linea negra*/
+  margin-top:2em;
+  margin-right: 1em;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: black;
+  
+}
+  /*------------------- FIN CONFIRMACION DE COMPRA------------------*/
+
+
+  /* detalle de producto*/
+  #parrafo {
+	background-color: rgb(145, 94, 0);
+	color: black;
+	flex: 12 1 auto;
+	padding: 20px;
+    border-radius: 15px;
+}
+.encendida{
+    color: yellow;
+}
+  /* fin detalle de producto*/
